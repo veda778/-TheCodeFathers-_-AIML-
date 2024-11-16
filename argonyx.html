@@ -1,0 +1,284 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Argonyx
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100">
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md">
+   <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+    <div class="flex items-center space-x-4">
+     <img alt="LinkedIn logo placeholder" class="h-10 w-10" height="40" src="https://storage.googleapis.com/a1aa/image/AWAR5ozs8gYlAtJ15CEC1VfTXfDDSfGnMo8PrEW75h1OLQinA.jpg" width="40"/>
+     <div class="relative">
+      <input class="bg-gray-200 rounded-full px-4 py-2 pl-10 focus:outline-none" placeholder="Search" type="text"/>
+      <i class="fas fa-search absolute left-3 top-3 text-gray-500">
+      </i>
+     </div>
+    </div>
+    <div class="flex items-center space-x-6">
+     <a class="text-gray-600 hover:text-gray-900" href="#">
+      <i class="fas fa-home">
+      </i>
+      Home
+     </a>
+     <a class="text-gray-600 hover:text-gray-900" href="#">
+      <i class="fas fa-user-friends">
+      </i>
+      My Network
+     </a>
+     <a class="text-gray-600 hover:text-gray-900" href= "Job_aggregator.html">
+      <i class="fas fa-briefcase">
+      </i>
+      Jobs
+     </a>
+     <a class="text-gray-600 hover:text-gray-900" href="#">
+      <i class="fas fa-comment-dots">
+      </i>
+      Messaging
+     </a>
+     <a class="text-gray-600 hover:text-gray-900" href="#">
+      <i class="fas fa-bell">
+      </i>
+      Notifications
+     </a>
+     <a class="text-gray-600 hover:text-gray-900" href="#">
+      <img alt="User profile picture placeholder" class="h-8 w-8 rounded-full" height="30" src="https://storage.googleapis.com/a1aa/image/HKnbOXWOf7UaFisYqJE40wPnRO4YxW8w7dciOmb7tnDzCk4JA.jpg" width="30"/>
+     </a>
+    </div>
+   </div>
+  </nav>
+  <!-- Main Content -->
+  <div class="container mx-auto px-4 py-6 flex space-x-6">
+   <!-- Left Sidebar -->
+   <div class="w-1/4 bg-white p-4 rounded-lg shadow-md">
+    <div class="flex items-center space-x-4">
+     <img alt="User profile picture placeholder" class="h-16 w-16 rounded-full" height="60" src="https://storage.googleapis.com/a1aa/image/HKnbOXWOf7UaFisYqJE40wPnRO4YxW8w7dciOmb7tnDzCk4JA.jpg" width="60"/>
+     <div>
+      <h2 class="text-lg font-semibold">
+       John Doe
+      </h2>
+      <p class="text-gray-600">
+       Software Engineer
+      </p>
+     </div>
+    </div>
+    <div class="mt-4">
+     <p class="text-gray-600">
+      Connections
+     </p>
+     <p class="text-blue-600 font-semibold">
+      500+
+     </p>
+    </div>
+    <div class="mt-4">
+     <button class="w-full bg-blue-600 text-white py-2 rounded-full">
+      View Profile
+     </button>
+    </div>
+    
+   </div>
+   <!-- Main Feed -->
+   <div class="w-2/4 space-y-6">
+    <!-- Post Box -->
+    <div class="bg-white p-4 rounded-lg shadow-md">
+     <div class="flex space-x-4">
+      <img alt="User profile picture placeholder" class="h-12 w-12 rounded-full" height="50" src="https://storage.googleapis.com/a1aa/image/HKnbOXWOf7UaFisYqJE40wPnRO4YxW8w7dciOmb7tnDzCk4JA.jpg" width="50"/>
+      <input class="w-full bg-gray-200 rounded-full px-4 py-2 focus:outline-none" placeholder="Start a post" type="text"/>
+     </div>
+     <div class="flex justify-between mt-4">
+      <button class="flex items-center space-x-2 text-gray-600 hover:text-gray-900">
+       <i class="fas fa-image">
+       </i>
+       <span>
+        Photo
+       </span>
+      </button>
+      <button class="flex items-center space-x-2 text-gray-600 hover:text-gray-900">
+       <i class="fas fa-video">
+       </i>
+       <span>
+        Video
+       </span>
+      </button>
+      <button class="flex items-center space-x-2 text-gray-600 hover:text-gray-900">
+       <i class="fas fa-calendar-alt">
+       </i>
+       <span>
+        Event
+       </span>
+      </button>
+      <button class="flex items-center space-x-2 text-gray-600 hover:text-gray-900">
+       <i class="fas fa-edit">
+       </i>
+       <span>
+        Write article
+       </span>
+      </button>
+     </div>
+    </div>
+    <!-- Posts -->
+    <div class="bg-white p-4 rounded-lg shadow-md">
+     <div class="flex space-x-4">
+      <img alt="User profile picture placeholder" class="h-12 w-12 rounded-full" height="50" src="https://storage.googleapis.com/a1aa/image/HKnbOXWOf7UaFisYqJE40wPnRO4YxW8w7dciOmb7tnDzCk4JA.jpg" width="50"/>
+      <div>
+       <h3 class="text-lg font-semibold">
+        Jane Smith
+       </h3>
+       <p class="text-gray-600 text-sm">
+        2h ago
+       </p>
+      </div>
+     </div>
+     <p class="mt-4 text-gray-800">
+      Excited to share that I have started a new position at XYZ Company!
+     </p>
+     <div class="mt-4">
+      <img alt="Placeholder image of a company office" class="w-full rounded-lg" height="400" src="https://storage.googleapis.com/a1aa/image/Hi5fijvSJb29BqASR4qreMsNq56UU4fetcpkPxkhyseJsAJeE.jpg" width="600"/>
+     </div>
+     <div class="flex justify-between mt-4">
+      <button class="flex items-center space-x-2 text-gray-600 hover:text-gray-900">
+       <i class="fas fa-thumbs-up">
+       </i>
+       <span>
+        Like
+       </span>
+      </button>
+      <button class="flex items-center space-x-2 text-gray-600 hover:text-gray-900">
+       <i class="fas fa-comment">
+       </i>
+       <span>
+        Comment
+       </span>
+      </button>
+      <button class="flex items-center space-x-2 text-gray-600 hover:text-gray-900">
+       <i class="fas fa-share">
+       </i>
+       <span>
+        Share
+       </span>
+      </button>
+     </div>
+    </div>
+    <div class="bg-white p-4 rounded-lg shadow-md">
+     <div class="flex space-x-4">
+      <img alt="User profile picture placeholder" class="h-12 w-12 rounded-full" height="50" src="https://storage.googleapis.com/a1aa/image/HKnbOXWOf7UaFisYqJE40wPnRO4YxW8w7dciOmb7tnDzCk4JA.jpg" width="50"/>
+      <div>
+       <h3 class="text-lg font-semibold">
+        Michael Johnson
+       </h3>
+       <p class="text-gray-600 text-sm">
+        5h ago
+       </p>
+      </div>
+     </div>
+     <p class="mt-4 text-gray-800">
+      Just published a new article on web development trends in 2023. Check it out!
+     </p>
+     <div class="mt-4">
+      <img alt="Placeholder image of a computer screen with code" class="w-full rounded-lg" height="400" src="https://storage.googleapis.com/a1aa/image/F4uFNZco83b2NFfaFHh1WNMTtZf6ystr952qHF1Pl4slFIxTA.jpg" width="600"/>
+     </div>
+     <div class="flex justify-between mt-4">
+      <button class="flex items-center space-x-2 text-gray-600 hover:text-gray-900">
+       <i class="fas fa-thumbs-up">
+       </i>
+       <span>
+        Like
+       </span>
+      </button>
+      <button class="flex items-center space-x-2 text-gray-600 hover:text-gray-900">
+       <i class="fas fa-comment">
+       </i>
+       <span>
+        Comment
+       </span>
+      </button>
+      <button class="flex items-center space-x-2 text-gray-600 hover:text-gray-900">
+       <i class="fas fa-share">
+       </i>
+       <span>
+        Share
+       </span>
+      </button>
+     </div>
+    </div>
+   </div>
+   <!-- Right Sidebar -->
+   <div class="w-1/4 space-y-6">
+    <!-- News Section -->
+    <div class="bg-white p-4 rounded-lg shadow-md">
+     <h2 class="text-lg font-semibold">
+      Latest News
+     </h2>
+     <ul class="mt-4 space-y-2">
+      <li class="flex space-x-2">
+       <i class="fas fa-newspaper text-gray-600">
+       </i>
+       <a class="text-gray-800 hover:text-gray-900" href="#">
+        Tech companies are hiring more remote workers
+       </a>
+      </li>
+      <li class="flex space-x-2">
+       <i class="fas fa-newspaper text-gray-600">
+       </i>
+       <a class="text-gray-800 hover:text-gray-900" href="#">
+        Top skills to learn in 2023
+       </a>
+      </li>
+      <li class="flex space-x-2">
+       <i class="fas fa-newspaper text-gray-600">
+       </i>
+       <a class="text-gray-800 hover:text-gray-900" href="#">
+        How to improve your LinkedIn profile
+       </a>
+      </li>
+      <li class="flex space-x-2">
+       <i class="fas fa-newspaper text-gray-600">
+       </i>
+       <a class="text-gray-800 hover:text-gray-900" href="#">
+        The future of work: Trends to watch
+       </a>
+      </li>
+      <li class="flex space-x-2">
+       <i class="fas fa-newspaper text-gray-600">
+       </i>
+       <a class="text-gray-800 hover:text-gray-900" href="#">
+        Networking tips for professionals
+       </a>
+      </li>
+     </ul>
+    </div>
+    <!-- Ads Section -->
+    <div class="bg-white p-4 rounded-lg shadow-md">
+     <h2 class="text-lg font-semibold">
+      Sponsored
+     </h2>
+     <div class="mt-4">
+      <img alt="Placeholder image of a product advertisement" class="w-full rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/IiZ0iuKnfrWxPqaE5A0Qa2NC5WOWikY3HmQuSjxL5esoFIxTA.jpg" width="300"/>
+      <p class="mt-2 text-gray-800">
+       Check out the latest product from XYZ Company!
+      </p>
+     </div>
+     <div class="mt-4">
+      <img alt="Placeholder image of a service advertisement" class="w-full rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/HGAmZvKIMcrMJB5zWfGbwfLmOGxWADoPEzVmIW2AQCKiFIxTA.jpg" width="300"/>
+      <p class="mt-2 text-gray-800">
+       Upgrade your skills with our new online courses.
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  
+ </body>
+</html>
